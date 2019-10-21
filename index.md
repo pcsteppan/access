@@ -79,8 +79,8 @@ _“…Abandon the pretext of objectivity. It is impossible and besides the poin
 [2]: https://shannonfinnegan.com/
 [3]: https://en.wikipedia.org/wiki/Social_model_of_disability
 [4]: https://www.galesburg.com/news/20191020/knox-enrollment-dips-75-students
-[5]: [https://www.eyebeam.org/alt-text-as-poetry/]
-[6]: [https://www.instagram.com/deathvalleynps/]
+[5]: https://www.eyebeam.org/alt-text-as-poetry/
+[6]: https://www.instagram.com/deathvalleynps/
 [7]: ./zine.pdf
 [8]: https://a11yproject.com/
 

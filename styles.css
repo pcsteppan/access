@@ -60,6 +60,11 @@ nav ol, nav a, #citation-info{
     line-height: 20px;
 }
 
+nav ol a:hover{
+    background: blue;
+    color: white;
+}
+
 nav ol{
     list-style: decimal-leading-zero;
 }
@@ -73,6 +78,8 @@ p + p{
     font-size: 1.5em;
     font-style: italic;
 }
+
+
 
 @media screen and (max-width: 480px) {
     img{
