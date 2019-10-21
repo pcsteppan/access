@@ -20,7 +20,7 @@ p{
     max-width: 55vw;
 }
 
-body>ol>li{
+body>ol,ul>li{
     font-size: 3em;
     line-height: 1.6em;
 }

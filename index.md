@@ -6,9 +6,12 @@
 5. What is _automatic alt-text_?
 
 # Social Model of Disability
-What is disability?
-"...society is the main contributory factor in making people with impairments 
-be unable to participate fully in society."
+_"...society is the main contributory factor in making people with impairments 
+be unable to participate fully in society."_ [Wikipedia][3]
+
+# What it looks like
+`<img src="841351.jpg" alt="An expansive tundra surrounds a group of huddled penguins.">`
+
 
 # [WCAG](https://www.w3.org/WAI/WCAG21/quickref/#non-text-content)
 Web Content Accessibility Guidelines outline international standards for making the web more accessible.
@@ -30,13 +33,23 @@ Web Content Accessibility Guidelines outline international standards for making 
 # [Good Example][6]
 ![twisted wood branches in the foreground with an arc of stars in the sky above a dark distant mountain.](https://www.eyebeam.org/wp-content/uploads/2019/05/Example-1-Image-1-640x425.jpg)
 
-twisted wood branches in the foreground with an arc of stars in the sky above a dark distant mountain.
+Twisted wood branches in the foreground with an arc of stars in the sky above a dark distant mountain.
 
-# Writing our own caption
+# Writing Our Own Alt-text
 Please, take a couple of minutes to try and write an alt-text for the following image:
 ![A wintery puddle leading to Old Main, a few hours before dusk.](https://www.galesburg.com/storyimage/LG/20191020/NEWS/191029995/AR/0/AR-191029995.jpg?Q=75&maxW=640&maxH=1920)
 
 [Recent Register Mail Article][4]
+
+# Enable Alt-text on Social Media
+- [Facebook](https://www.facebook.com/help/214124458607871)
+- [Twitter](https://help.twitter.com/en/using-twitter/picture-descriptions)
+- [Instagram](https://help.instagram.com/503708446705527)
+
+# Seeing Like a Computer
+![The book cover of Unknown Unknowns Seeing Like a Computer: Facebook's Automatic Alternative Text](https://assets.bigcartel.com/product_images/227907494/seeing_cover.jpg?auto=format&fit=max&w=480)
+
+[Examples of Automatic Alt-text from Facebook.](https://assets.bigcartel.com/product_images/225039931/seeing_pg214.jpg?auto=format&fit=max&w=2000)
 
 # Sources+Further Reading
 1. [Web Content Accessibility Guidelines (WCAG)][1]
