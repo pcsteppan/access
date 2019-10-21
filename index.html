@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CS208—Alt-Text</title>
+    <link rel="stylesheet" href="https://use.typekit.net/abf2twd.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav></nav>
+    <h1 id="accessibilityalttext">Accessibility + Alt-text</h1>
+<ol>
+<li>What is <em>accessibility</em>?</li>
+<li>What is <em>alt-text</em>?</li>
+<li>Why is alt-text important?</li>
+<li>How can we write effective alt-text?</li>
+<li>What is <em>automatic alt-text</em>?</li>
+</ol>
+<h1 id="socialmodelofdisability">Social Model of Disability</h1>
+<p>What is disability?
+<code>...society is the main contributory factor in making people with impairments 
+be unable to participate fully in society.</code></p>
+<h1 id="accountability">Accountability</h1>
+<p>The blind or visually disabled are limited by access. Alt-text is about increasing access.</p>
+<h1 id="alttextaspoetry5"><a href="[https://www.eyebeam.org/alt-text-as-poetry/]">Alt-text as poetry</a></h1>
+<p>Guidelines:</p>
+<ol>
+<li><ol start="2">
+<li>Concise</li></ol></li>
+</ol>
+<h1 id="badexample">Bad Example</h1>
+<p><a href="https://www.galesburg.com/news/20191020/knox-enrollment-dips-75-students">Recent Register Mail Article</a></p>
+<h1 id="goodexample">Good Example</h1>
+<h1 id="questions">Questions?</h1>
+<h1 id="sources">Sources</h1>
+<ol>
+<li><a href="https://www.w3.org/TR/WCAG20/">Web Content Accessibility Guidelines (WCAG)</a></li>
+<li><a href="https://shannonfinnegan.com/">Shannon Finnegan, an artist making work about disability culture and access.</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Social_model_of_disability">Wikipedia, Social Model of Disability</a></li>
+</ol>
+    <div id="citation-info">
+        Presentation on Accessibility<br/>
+        and Alt-text for CS 208<br/>
+        October 21, 2019<br/>
+        Patrick Steppan<br/>
+    </div>
+</body>
+<script>
+    let h1s = document.querySelectorAll('h1');
+    let nav = document.querySelector('nav');
+    let ol = document.createElement('ol');
+    h1s.forEach((e) =>{
+        let li = document.createElement('li');
+        let a = document.createElement('a');
+        a.innerText = e.innerText;
+        a.setAttribute('href', `#${e.id}`)
+        li.appendChild(a);
+        ol.appendChild(li);
+    })
+    nav.appendChild(ol);
+</script>
+</html>
