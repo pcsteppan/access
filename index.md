@@ -5,16 +5,28 @@
 4. How can we write effective alt-text?
 5. What is _automatic alt-text_?
 
+# Conditions and Impairment
+- Myopia
+- Colour blindness
+- Glaucoma
+- Albinism
+
+Can result in low-vision, obstructed-vision, or non-sightedness.
+
 # Social Model of Disability
 _"...society is the main contributory factor in making people with impairments 
 be unable to participate fully in society."_ [Wikipedia][3]
 
-# What it looks like
-`<img src="841351.jpg" alt="An expansive tundra surrounds a group of huddled penguins.">`
-
+# [Three Types of Barriers](https://www.who.int/disabilities/world_report/2011/report.pdf)
+1. Attitudinal
+2. Environmental
+3. Institutional
 
 # [WCAG](https://www.w3.org/WAI/WCAG21/quickref/#non-text-content)
 Web Content Accessibility Guidelines outline international standards for making the web more accessible.
+
+# What it looks like
+`<img src="841351.jpg" alt="An expansive tundra surrounds a group of huddled penguins.">`
 
 # Guidelines for writing alt-text
 1. Use complete sentences.
@@ -51,11 +63,17 @@ Please, take a couple of minutes to try and write an alt-text for the following 
 
 [Examples of Automatic Alt-text from Facebook.](https://assets.bigcartel.com/product_images/225039931/seeing_pg214.jpg?auto=format&fit=max&w=2000)
 
+# "Objectivity"
+_“…Abandon the pretext of objectivity. It is impossible and besides the point. The blind listener knows that there’s some interpretation involved in even the most basic description, and often the systemic cataloguing of depicted objects is more information than anyone wants. Once the pretense of objectivity is abandoned, it could be replaced by descriptions of the artist’s techniques, as well as the effect the work has on the viewer, recognizing that this will differ from individual to individual.”_
+
+—Georgina Kleege, author of _More than Meets the Eye: What Blindness Brings to Art_
+
 # Sources+Further Reading
 1. [Web Content Accessibility Guidelines (WCAG)][1]
 2. [Shannon Finnegan, an artist making work about disability culture and access.][2]
 3. [Wikipedia, Social Model of Disability][3]
 4. [My opinions on Automatic Alternative Text][7]
+5. [A11y Project: Information + Open Patterns][8]
 
 [1]: https://www.w3.org/TR/WCAG20/
 [2]: https://shannonfinnegan.com/
@@ -64,5 +82,6 @@ Please, take a couple of minutes to try and write an alt-text for the following 
 [5]: [https://www.eyebeam.org/alt-text-as-poetry/]
 [6]: [https://www.instagram.com/deathvalleynps/]
 [7]: ./zine.pdf
+[8]: https://a11yproject.com/
 
 # Questions?

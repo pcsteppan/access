@@ -21,7 +21,7 @@ p{
 }
 
 body>ol,ul>li{
-    font-size: 3em;
+    font-size: 2.6em;
     line-height: 1.6em;
 }
 
@@ -72,4 +72,37 @@ nav ol{
 p + p{
     font-size: 1.5em;
     font-style: italic;
+}
+
+@media screen and (max-width: 480px) {
+    img{
+        max-width: 90vw;
+    }
+    body{
+        padding-left: 2em;
+    }
+    html>body>h1{
+        font-size:3em;
+    }
+    html>body>h1:nth-child(n+3){
+        margin-top: 20vh;
+    }
+    p+p{
+        font-size:1em;
+    }
+    nav{
+        display: none;
+    }
+    #citation-info{
+        display: none;
+    }
+    p{
+        font-size: 1.6em;
+        max-width: 40rem;
+    }
+    
+    body>ol,ul>li{
+        font-size: 1.6em;
+        line-height: 1.4em;
+    }
 }
